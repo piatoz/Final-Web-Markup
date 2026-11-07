@@ -37,6 +37,9 @@ body > header{
 	padding: 10px 64px;
     font-size: 23px;
     word-spacing: 60px;
+    border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #2B2A28;
 }
 
 .logo img{
@@ -191,7 +194,6 @@ nav a{
 }
 
 .icon{
-	display: block;
 	margin: 0 auto 12px;
 	width: 32px;
 	height: 32px;
@@ -230,4 +232,138 @@ nav a{
 
 .sample-photos li{
 	width: 25%;
+}
+
+
+/* DETAIL PAGE 1 */
+
+.main-header{
+    color:#2F5D50;
+    font-size: 40px;
+    font-family: "Roboto Slab", sans-serif;
+    text-align: center;
+}
+
+
+
+.section1 ul{
+    display: flex;
+    list-style: none;
+    gap: 90px;
+    padding: 0px;
+    margin: 0 auto;
+    max-width: 1500px;
+}
+
+.section1 img
+{
+    width: 445px;
+    height: auto;
+
+}
+
+.section1 li{
+    display: flex;
+    flex-direction: column;
+	width: 48%;
+	background-color: #FBE3D5;
+	border-radius: 20px;
+	padding: 20px 20px 40px;
+}
+
+.section1 p{
+    font-size: 20px;
+    line-height: 1.5;
+    padding: 0 20px;
+    margin-top: 15px;
+    min-height: 180px;
+}
+
+.section1 h3{
+    font-size:26px;
+    padding: 0 20px;
+    font-family: "Roboto Slab", sans-serif;
+}
+
+.section1 h2{
+    max-width: 1500px;
+    margin: 15px auto;
+    font-size: 30px;
+    font-family: "Roboto Slab", sans-serif;
+}
+
+.section1 figure{
+	margin: auto 0 0;
+	text-align: center;
+}
+
+.section2{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.section2 ul{
+    display: flex;
+    list-style: none;
+    gap: 90px;
+    padding: 0px;
+    margin: 0 auto;
+    max-width: 1500px;
+}
+
+.section2 img
+{
+    width: 542px;
+    height: auto;
+
+}
+
+.section2 li{
+    display: flex;
+    flex-direction: column;
+	width: 48%;
+	background-color: white;
+	border-radius: 20px;
+	padding: 20px 20px 40px;
+}
+
+.section2 p{
+    font-size: 20px;
+    line-height: 1.5;
+    padding: 0 20px;
+    margin-top: 15px;
+    min-height: 180px;
+}
+
+.section2 h3{
+    font-size:26px;
+    padding: 0 20px;
+    font-family: "Roboto Slab", sans-serif;
+    color:#2F5D50
+}
+
+.section2 h2{
+    max-width: 1500px;
+    margin: 15px auto;
+    font-size: 30px;
+    font-family: "Roboto Slab", sans-serif;
+    color:#2F5D50
+}
+
+.section2 figure{
+	margin: auto 0 0;
+	text-align: center;
+}
+
+figcaption{
+    font-size: 9px;
+}
+
+.lens-info{
+    max-width: 1460px;
+	background-color: #2F5D50;
+	border-radius: 20px;
+	padding: 20px 20px 40px;
+    color: #FAF6EF;
+    margin: 0 auto;
 }
