@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+
+a:hover{
+    color:#2F5D50;
+    font-weight: normal;
+}
+
+a:active{
+    font-weight: bold;
+    color:#2F5D50;
+
+}
+
+nav a[aria-current="page"]{
+	text-decoration: underline #2F5D50;
+    color: #2F5D50;
+    font-weight: bold;
+}
+
+body{
+    font-family: "Inter", sans-serif;
+    margin: 0;
+    background-color: #FAF6EF;
+    color: #2B2A28;
+    line-height: 1;
+}
+
+body > header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px 64px;
+    font-size: 23px;
+    word-spacing: 60px;
+}
+
+.logo img{
+	height: 48px;
+	width: auto;
+}
+
+nav a{
+	margin-left: 32px;
+	color: #2B2A28;
+	text-decoration: none;
+}
+
+.home-top{
+    display: flex;
+    align-items: center;
+    background-color: #2F5D50;
+    gap: 2rem;
+    padding: 1.5rem 4rem;
+    color: white;
+}
+
+.home-text{
+    width: 50%;
+	text-align: center;
+    line-height: 0.7;
+}
+
+.home-text h1{
+    font-family: "Roboto Slab", sans-serif;
+    font-size: 45px;
+}
+
+.home-text h2{
+    font-weight: 350;
+}
+
+.intro-text{
+    font-size: 30px;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 30px 32px;
+    line-height: 1.4;
+    text-indent: 32px;
+    word-spacing: 2px;
+}
+
+.home-top img{
+    width: 25%;
+    height: auto;
+    border-radius: 1rem;
+    margin-left: 20%;
+    box-shadow: 12px 12px #FBE3D5;
+}
+
+.learn{
+    background-color: #FAE3D2;
+    padding: 10px
+}
+
+.learn h2{
+    color: #2F5D50;
+    text-align: center;
+    font-size: 40px;
+    font-family: "Roboto Slab", sans-serif;
+}
+
+.cards{
+    display: flex;
+    list-style: none;
+    gap: 60px;
+    padding: 20px 20px;
+    margin: 0 auto;
+    max-width: 1400px;
+}
+
+.cards li{
+    width: 22%;
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    gap: 3
+}
+
+.card h3{
+    color:#2F5D50;
+    font-size: 20px;
+}
+
+.card a{
+	color: #2F5D50;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.card-number{
+	width: 30px;
+	height: 30px;
+	margin: 0 0 12px;
+	border-radius: 50%;
+	background-color: #FBE3D5;
+	text-align: center;
+	line-height: 30px;
+    font-size: 16px;
+	font-weight: bold;
+}
+
+.why{
+    list-style: none;
+    gap: 60px;
+    padding: 20px 20px;
+    margin: 0 auto;
+    max-width: 1400px;
+}
+
+.why h2
+{
+    color: #2F5D50;
+    font-size: 40px;
+    font-family: "Roboto Slab", sans-serif;
+    text-align: center;
+}
+
+.benefits
+{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    list-style: none;
+    padding: 0;
+    max-width: 1400px;
+}
+
+.benefits h4
+{
+    font-size: 24px;
+    text-align: center;
+    color:#2F5D50;
+    margin-bottom: 4px;
+}
+
+.benefits p
+{
+    margin-top: 0.5;
+    font-size: 20px;
+}
+
+.benefits li
+{
+    width: 30%;
+	text-align: center;
+}
+
+.icon{
+	display: block;
+	margin: 0 auto 12px;
+	width: 32px;
+	height: 32px;
+	padding: 9px;
+	border-radius: 50%;
+	background-color: #F4A97F;
+}
+
+.sample
+{
+    background-color: #FAE3D2;
+}
+
+.sample h2
+{
+    font-family: "Roboto Slab", sans-serif;
+    color: #2F5D50;
+    font-size: 40px;
+    text-align: center;
+    padding: 25px 20px;
+}
+
+.sample-photos{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.sample-photos figcaption{
+    font-size: 16.5px;
+    font-weight: bold;
+}
+
+.sample-photos li{
+	width: 25%;
+}
