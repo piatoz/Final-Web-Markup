@@ -123,7 +123,7 @@ nav a{
     background-color: white;
     border-radius: 8px;
     padding: 20px;
-    gap: 3
+    gap: 3px;
 }
 
 .card h3{
@@ -185,7 +185,7 @@ nav a{
 
 .benefits p
 {
-    margin-top: 0.5;
+    margin-top: 0.5px;
     font-size: 20px;
 }
 
@@ -500,7 +500,7 @@ figcaption{
     background-color: white;
     border-radius: 8px;
     padding: 20px;
-    gap: 3
+    gap: 3px;
 }
 .tip-number{
 	width: 33px;
@@ -918,7 +918,7 @@ footer p{
 		width: auto;
 	}
 
-	.benefits h4{
+	.benefits h3{
 		font-size: 20px;
 	}
 
@@ -1025,7 +1025,7 @@ footer p{
 		width: auto;
 	}
 
-	.exp-triangle h3{
+	.exp-triangle h2{
 		font-size: 22px;
 	}
 
@@ -1044,7 +1044,7 @@ footer p{
 		width: 100%;
 	}
 
-	.recipe h3{
+	.recipe h2{
 		font-size: 24px;
 	}
 
