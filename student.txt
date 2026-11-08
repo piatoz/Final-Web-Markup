@@ -1,5 +1,5 @@
 Student name: Christian Rosales
 Student number: 761019
 Student class: IT1B
-GitHub Repository: your github repository URL
-GitHub Pages URL: your github pages URL
+GitHub Repository: https://github.com/piatoz/Final-Web-Markup
+GitHub Pages URL: https://piatoz.github.io/Final-Web-Markup/index.html
