@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="author" content="Christian Rosales" />
+		<title>XM5 Guide | Contact</title>
+		<link rel="stylesheet" href="css/styles.css" />
+	</head>
+	<body>
+		<header>
+			<a href="index.html" class="logo">
+				<img src="img/logo-transparent-nav-footer.svg" alt="" title="XM5 Guide"
+			/></a>
+			<nav>
+				<a href="index.html">Home</a>
+				<a href="detail1.html">Learn</a>
+				<a href="contact.html" aria-current="page">Contact</a>
+			</nav>
+		</header>
+		<main>
+			<section class="contact">
+				<form action="contact.html">
+                    <p>Fields with * are <em>required</em>.</p>
+
+                    <p class="salutation">
+                        <input type="radio" id="mr" name="salutation" value="mr">
+                        <label for="mr">Mr.</label>
+                        <input type="radio" id="mrs" name="salutation" value="mrs">
+                        <label for="mrs">Mrs.</label>
+                        <input type="radio" id="ms" name="salutation" value="ms">
+                        <label for="ms">Ms.</label>
+                    </p>
+
+					<label for="name">Name:*</label>
+					<input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+					<label for="email">Email:*</label>
+					<input type="email" id="email" name="email" placeholder="your@email.com" required>
+
+                    <label for="phone">Phone number</label>
+	                <input type="tel" id="phone" name="phone" placeholder="+XX 123456789">
+
+					<label for="message">Message:*</label>
+					<textarea id="message" name="message" rows="4" cols="50" placeholder="Type your message here..." required></textarea>
+                    
+                    <p class="submit">
+					    <input type="submit" value="Submit"/>
+                    </p>
+				</form>
+
+				<article>
+					<h1>Contact us</h1>
+					<p>Have questions, concerns, or suggestions? We would like to hear from you!</p>
+				</article>
+			</section>
+		</main>
+        
+		<footer>
+		    <img src="img/logo-transparent-nav-footer.svg" alt="XM5 Guide" title="XM5 Guide" class="footer-logo">
+		    <p>&copy; 2026 XM5 Guide, All rights reserved.</p>
+	    </footer>
+
+	    <aside class="cookies">
+		    <p>This website uses cookies to give you the best experience.</p>
+	    </aside>
+</body>
+</html>
