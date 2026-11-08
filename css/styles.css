@@ -51,6 +51,7 @@ nav a{
 	margin-left: 32px;
 	color: #2B2A28;
 	text-decoration: none;
+    letter-spacing: 0.7px;
 }
 
 .home-top{
@@ -407,4 +408,136 @@ figcaption{
 .lens-types p{
     font-size: 25px;
     margin: 5px;
+}
+
+/* DETAIL PAGE 2 */
+
+.main-photo{
+    display: flex;
+    justify-self: center;
+    width: 722px;
+    height: auto;
+    padding-top: 60px;
+}
+
+.detail2-header{
+    font-family: "Roboto Slab", sans-serif;
+    font-size: 40px;
+    color:#2F5D50;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+
+.exp-triangle ul{
+    display: flex;
+    list-style: none;
+    gap: 90px;
+    padding: 0px;
+    margin: 0 auto;
+    max-width: 1500px;
+}
+.exp-triangle li{
+    display: flex;
+    flex-direction: column;
+	width: 48%;
+	background-color: #FBE3D5;
+	border-radius: 20px;
+	padding: 20px 20px 40px;
+    box-shadow: 0 -8px #F2B38A;
+}
+
+.exp-triangle h3{
+    font-weight: bold;
+    font-size: 26px;
+}
+
+.exp-triangle p{
+    line-height: 1.5;
+    font-size: 18px;
+}
+
+.exp-triangle p,
+.exp-triangle h3{
+    padding: 0 10px;
+}
+
+.exposure-tips{
+    background-color:#FAE3D2;
+}
+
+.rule-of-thumb{
+	margin: 24px 0 0;
+	padding-left: 16px;
+	border-left-width: 4px;
+	border-left-style: solid;
+	border-left-color: #F4A97F;
+	font-style: italic;
+}
+
+.exposure-tips h2{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: "Roboto Slab", sans-serif;
+    padding-top: 30px;
+    color:#2F5D50;
+}
+
+.tips{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 60px;
+    padding: 20px 20px;
+    margin: 0 auto;
+    max-width: 1400px;
+}
+
+.tips li{
+    width: 29%;
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    gap: 3
+}
+.tip-number{
+	width: 33px;
+	height: 30px;
+	margin: 0 0 12px;
+	border-radius: 50%;
+	background-color: #F2B38A;
+	text-align: center;
+	line-height: 32px;
+    font-size: 18px;
+	font-weight: bold;
+    padding-top: 3px;
+}
+
+.tip p{
+    line-height: 28px;
+    font-size: 19px;
+}
+
+.tip h3{
+    color: #2F5D50;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+/* DETIAL PAGE 3 */
+
+.recipe{
+    background-color: white;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+.recipe p{
+    display: flex;
+    flex-direction: row;
 }
